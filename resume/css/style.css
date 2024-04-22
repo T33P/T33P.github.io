@@ -4,7 +4,6 @@ body {
   text-align: center;
 }
 section {
-  width: 50%;
   margin: auto;
   border-color: green;
   border-style: dotted;
@@ -26,7 +25,6 @@ img {
 nav {
   border-color: blue;
   border-style: solid;
-  width: 50%;
   margin: auto;
 }
 p {
