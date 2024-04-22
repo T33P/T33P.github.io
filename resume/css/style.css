@@ -1,1 +1,30 @@
+body {
+  width: 50%;
+  margin: auto;
+}
 
+section {
+  width: 50%;
+  margin: 20px 50px;
+  border-color: green;
+  border-style: dotted;
+}
+
+h2 {
+  color: green;
+  margin: auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+nav {
+  border-color: blue;
+  border-style: solid;
+  width: 50%;
+  margin: 20px 50px;
+}
+  
