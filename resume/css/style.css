@@ -8,6 +8,10 @@ section {
   border-color: green;
   border-style: dotted;
 }
+h1 {
+  color: blue;
+  margin:auto;
+}
 h2 {
   color: green;
   margin: auto;
