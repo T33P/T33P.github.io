@@ -3,9 +3,36 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/main.css">
-    <title></title>
+    <title>Advanced Google Search</title>
   </head>
   <body>
-    <h1>This is my heading</h1>
+    <h1>Advanced Google Search</h1>
+    <form> action="https://www.google.com/search" method="GET" target="_blank"</form>
+      <fieldset id="topset">
+        <div>
+          <label for="searchbox">Search Box</label>
+          <input type="text" name="main" id="searchbox">
+        </div>
+        <div>
+          <label for="phrase">Must Include:</label>
+            <select name="as_epq" id="phrase">
+              <option value="">--All Phrases--</option>
+              <option value="Cats">Cats</option>
+              <option value="Dogs">Dogs</option>
+            </select>
+        </div>
+        <div>
+          <label for="site">On this site:</label>
+            <select name="as_sitesearch" id="site">
+              <option value="">--All Wesites--</option>
+              <option value="yahoo.com">Yahoo</option>
+              <option value="bing.com">Bing</option>
+              <option value="msn.com">MSN</option>
+            </select>
+        </div>
+        <fieldset>
+
+        
+        </fieldset>
   </body>
 </html>
