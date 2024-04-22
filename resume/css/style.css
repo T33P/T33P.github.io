@@ -2,19 +2,16 @@ body {
   width: 50%;
   margin: auto;
 }
-
 section {
   width: 50%;
-  margin: 20px 50px;
+  margin: auto;
   border-color: green;
   border-style: dotted;
 }
-
 h2 {
   color: green;
   margin: auto;
 }
-
 img {
   display: block;
   margin-left: auto;
@@ -25,6 +22,9 @@ nav {
   border-color: blue;
   border-style: solid;
   width: 50%;
-  margin: 20px 50px;
+  margin: auto;
 }
-  
+p {
+  margin: auto;
+}
+
