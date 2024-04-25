@@ -11,7 +11,7 @@
       <fieldset id="topset">
         <div>
           <label for="searchbox">Search Box</label>
-          <input type="text" name="main" id="searchbox">
+          <input type="text" name="as_q" id="searchbox">
         </div>
         <div>
           <label for="phrase">Must Include:</label>
@@ -29,6 +29,16 @@
               <option value="bing.com">Bing</option>
               <option value="msn.com">MSN</option>
             </select>
+        </div>
+        <div>
+          <label for="exclude">Exclude this:</label>
+            <input type="text" name="as_eq" id="exclude">
+        </div>
+        <div>
+          <label for="field5">numbers ranging from: </label>
+            <input type="text" class="numb1" name="as_nlo" id="numb1">
+            <span>to</span>
+            <input type="text" class="numb2" name="as_nhi" id="numb2">
         </div>
         <div>
           <label for="newtab">Open in new tab</label>
